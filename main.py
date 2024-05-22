@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from app.model.model import predict_text
+from model.model import predict_text
 
 
 app = FastAPI()
